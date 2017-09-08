@@ -1,0 +1,50 @@
+Host lcj
+    HostName lcj.aihlp.com
+    User li
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host lcj2
+    HostName kmt2.aihlp.com
+    User li
+    Port 8022
+    IdentityFile ~/.ssh/id_rsa
+
+
+Host li
+    HostName 172.18.1.8
+    User lcj
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+
+Host kmt
+    HostName kmt.aihlp.com
+    User li
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host kmt2
+    HostName kmt2.aihlp.com
+    User li
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host kmt3
+    HostName 10.0.0.123
+    User li
+    Port 20
+    IdentityFile ~/.ssh/id_rsa
+
+Host github
+    HostName github.com
+    User git
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+
+Host aihlp
+    HostName aihlp.com
+    User aihlpco1
+    Port 22
+    IdentityFile ~/.ssh/id_rsa

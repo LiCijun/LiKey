@@ -1,5 +1,5 @@
 [NewRequest]
-Subject = "CN=li BitLocker DRA"
+Subject = "CN=lcj BitLocker DRA"
 KeyLength = 2048
 Exportable = TRUE 
 ExportableEncrypted = FALSE
@@ -9,5 +9,7 @@ KeyUsageProperty = "NCRYPT_ALLOW_DECRYPT_FLAG"
 RequestType = Cert
 SMIME = FALSE
 Hashalgorithm = sha512
+ValidityPeriod=Years  
+ValidityPeriodUnits=200  
 [EnhancedKeyUsageExtension]
 OID=1.3.6.1.4.1.311.67.1.2

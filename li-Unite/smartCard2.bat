@@ -1,0 +1,1 @@
+certreq  ¨Cnew smartCard2.txt

@@ -24,6 +24,5 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"  
 :--------------------------------------  
 @echo off
- manage-bde -protectors -delete m: -id "{F744724C-F52A-43C6-B048-AA4DBE97A073}"
-manage-bde -protectors -get m: 
+ manage-bde -unlock u: -Certificate -cf   li-unite.cer
 pause

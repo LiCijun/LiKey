@@ -1,0 +1,27 @@
+[NewRequest]
+Subject = "CN=康萌德公司文档,E=lcj211@aihlp.com,L=深圳市,S=广东省,C=CN,G=lcj"
+ValidityPeriod=Years  
+ValidityPeriodUnits=7981
+KeyLength = 2048
+KeySpec = "AT_KEYEXCHANGE" 
+KeyUsage = 0xFF
+RequestType = Cert
+Exportable = TRUE
+ExportableEncrypted = TRUE
+SMIME = TRUE
+Hashalgorithm = sha512
+[EnhancedKeyUsageExtension]
+OID=1.3.6.1.4.1.311.67.1.1
+OID=1.3.6.1.4.1.311.67.1.2
+OID=1.3.6.1.4.1.311.10.3.4
+OID=1.3.6.1.4.1.311.10.3.4.1
+OID=1.3.6.1.5.5.7.3.4
+OID=1.3.6.1.5.5.7.3.2
+OID=1.3.6.1.4.1.311.21.6
+OID=1.3.6.1.4.1.311.10.3.11
+OID=1.3.6.1.4.1.311.10.3.12
+OID=1.3.6.1.4.1.311.10.12.1
+OID=1.3.6.1.4.1.311.21.6
+
+
+
